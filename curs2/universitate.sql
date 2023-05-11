@@ -11,3 +11,6 @@ CREATE TABLE `magazin2023`.`student` (
   PRIMARY KEY (`idstudent`),
   UNIQUE INDEX `email_UNIQUE` (`email` ASC) )
 ENGINE = InnoDB;
+
+
+

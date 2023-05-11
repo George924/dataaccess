@@ -48,5 +48,5 @@ UPDATE `didactic` SET id_prof = 11 WHERE id_prof;
 
 SELECT s.nume, s.prenume FROM `note` AS n INNER JOIN student AS s ON n.id_student = s.id GROUP by n.id_student;
 
-SELECT s.nume, s.prenume, n.valoare, AVG(n.valoare) FROM `student` AS s LEFT JOIN note AS n ON s.id = n.id_student
+SELECT s.nume, s.prenume, n.valoare, AVG(n.valoare) FROM `student` AS s LEFT JOIN note AS n ON s.id = n.id_student;
 WHERE s.id =111 GROUP BY s.id;

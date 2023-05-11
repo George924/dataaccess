@@ -1,0 +1,1 @@
+SELECT SUM (bursa) FROM student WHERE an =1 AND bursa IS NOT NULL GROUP BY
